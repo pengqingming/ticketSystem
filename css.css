@@ -1,0 +1,78 @@
+﻿body,div,img,dd,dt,dl,h3{
+	margin: 0px;
+	padding: 0px;
+	background: #f00;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/*headerbar*/
+.headbar{
+	width: 1000px;
+	height: 83px;
+	margin-left: auto;
+	margin-right: auto
+
+}
+.rightBar{
+	margin-left: -20px;
+	line-height: 83px;
+}
+
+/*main*/
+.tmain{
+	width: 1000px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 5px solid #060;
+	font-size:18px;
+	font-family: "Microsoft YaHei","微软雅黑";
+}
+/*左侧实现*/
+.leftbox{
+	
+	width: 160px;
+	height: 100%;
+	
+}
+
+.leftbox dd,dt{
+	padding-left: 20px;
+	background-color: #0eb;
+
+}
+.leftbox dd{
+	padding-left: 40px;
+}
+/*右侧实现*/
+.rightbox{
+	border-left: 5px solid #060;
+}
+.topbox .topbtn{
+	height: 35px;
+	background: #0ef;
+	text-align: right;
+	line-height: 35px;
+}
+.topbtn a{
+	display: inline-block;
+}
+.topbtn a:hover{
+	color: #f0f;
+}
+#return,#button{
+	
+	background-color: #0fe;
+	height: 32px;
+	border:none;
+	
+}
+
+/*form表单*/
+form{
+	margin-left: 500px;
+}
